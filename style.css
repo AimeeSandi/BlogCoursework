@@ -1,0 +1,100 @@
+body {
+    color: slateblue;
+    background-color: lightskyblue;
+    font-family: "Verdana"
+}
+
+ #tab{
+  display: block;
+  color: darkblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid black
+ } 
+.chapter {
+  display: block;
+  
+}
+  li {
+    float: center;
+    
+  }
+
+
+  li a {
+    display: block;
+    color: darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid black
+  }
+  
+  li a:hover {
+    background-color: turquoise;
+  }
+
+h1 {
+    color: darkmagenta;
+    text-align: center;
+}
+
+.title {
+    font-size:400%;
+
+}
+
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2 {
+    color: darkslateblue;
+    font-style: italic;
+}
+
+
+/* unvisited link */
+a:link {
+    color: darkblue;
+    background-color: lightgrey;
+  }
+  
+  #Trello {
+    color: darkblue;
+    background-color: lightskyblue;
+   
+  }
+  #Trello:hover {
+    color: grey;
+    background-color: lightblue;
+  }
+
+  #Trello:visited {
+    color: lightseagreen;
+  }
+
+  #Trello:active {
+    color: lightskyblue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: lightseagreen;
+
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: grey;
+    background-color: lightskyblue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: lightskyblue;
+      }
